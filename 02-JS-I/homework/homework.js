@@ -7,7 +7,7 @@ const nuevaString = "Aprendiendo";
 const nuevoNum = 1;
 
 // Crea una variable booleana:
-const nuevoBool = True;
+const nuevoBool = false;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -103,9 +103,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  x=21;
-  y=7;
-  return x%y;
+  return x % y;
 }
 
 function esPar(num) {
@@ -140,11 +138,7 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  if (num > 0) {
-    return num * num * num;
-  } else {
-    return num;
-  }
+  return Math.pow(num, 3);
 }
 
 function elevar(num, exponent) {
